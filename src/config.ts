@@ -1,0 +1,1 @@
+export { default as Config } from "../config.json" with { "type": "json" };

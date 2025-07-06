@@ -1,0 +1,22 @@
+{
+  "name": "music",
+  "version": "0.1.0",
+  "description": "A music bot",
+  "license": "MIT",
+  "author": "noobnuby",
+  "type": "module",
+  "main": "src/index.ts",
+  "scripts": {
+    "start": "npx ts-node ./src/index.ts"
+  },
+  "dependencies": {
+    "@types/get-image-colors": "^4.0.5",
+    "discord.js": "^14.19.3",
+    "es-hangul": "^2.3.3",
+    "get-image-colors": "^4.0.1",
+    "magmastream": "^2.8.7"
+  },
+  "devDependencies": {
+    "@andjsrk/tsconfig": "^0.1.2"
+  }
+}

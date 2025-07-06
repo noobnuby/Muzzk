@@ -1,0 +1,12 @@
+{
+    "extends": "@andjsrk/tsconfig/base",
+    "compilerOptions": {
+        "module": "NodeNext",
+        "moduleResolution": "nodenext",
+        "resolveJsonModule": true,
+        "allowImportingTsExtensions": true,
+        "noEmit": true,
+    },
+    "include": ["src/**/*"],
+    "exclude": ["node_modules"],
+}
