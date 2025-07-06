@@ -1,5 +1,5 @@
 {
-  "name": "music",
+  "name": "muzzk",
   "version": "0.1.0",
   "description": "A music bot",
   "license": "MIT",
@@ -7,7 +7,7 @@
   "type": "module",
   "main": "src/index.ts",
   "scripts": {
-    "start": "npx ts-node ./src/index.ts"
+    "start": "node ."
   },
   "dependencies": {
     "@types/get-image-colors": "^4.0.5",
